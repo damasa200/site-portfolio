@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+body {
+   font-family: "Open Sans", sans-serif;
+   background-color: #f6f8f6;
+   margin: 0px;
+   padding: 10px;
+   overflow-x: hidden;
+}
+
+h1 {
+   font-family: "Montserrat", sans-serif;   
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 64px;
+  font-size: 56px;
+  color: #1e1e1e;
+  margin: 0px;
+  
+}
+
+h2.cor {  
+  color: #d48223
+  
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px;
+}
+
+
+li {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 400;
+
+}
+
+  
+button {
+  height: 45px;
+  max-width: 500px;
+  border-radius: 3px;
+  background-color: #d48223;
+  border-width: 0px;
+  color: #fefefe;
+  font-weight: regular;
+  letter-spacing: 0.16rem;
+  letter-spacing: 0.16rem;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  
+}
+
+p.card {
+  font-size: 16px;
+  margin-top: 4px;
+  text-align: center;
+  max-width: 80%;
+
+   
+}
+
+footer {
+  display: flex;
+  width: 100vw;
+  height: 120px;
+  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: center;
+  
+}
+    
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100% 
+  
+  
+  
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 1216px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 90vh;
+  
+  
+}
+.barra-navegacao {
+  display: flex;
+  width: 1216px;
+  height: 72px;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+ .titulo-navegacao {
+  color: #1e1e1e;
+  font-size: 24px;
+  letter-spacing: -0.015rem;
+  font-weight: bold;
+
+}
+.links-navagacao{
+  color:rgb(132, 132, 143);
+  font-size: 18px;
+  letter-spacing: -0.011rem;
+  font-weight: regular;
+  margin-right:16px;
+  cursor: pointer;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1216px;
+  height: auto;
+  padding-top: 64px;
+  
+ }
+
+  /* NOVO BLOCO PARA AGRUPAR TÍTULO + DESCRIÇÃO*/
+
+.hero-info-texto {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+
+  }
+.hero-info-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom:16px;
+}
+
+.hero.info-description {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.hero-info-image {
+  height: 557px;
+  width: 567px;
+  border-radius: 25px;
+}
+
+.hero-info-icones-container {
+  display: flex;
+  flex-direction: row;
+  width: 88%;
+  align-items:  center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.hero-info-icones-img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.section-abilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding-top:64px;
+  padding-bottom: 64px;
+
+}
+
+.ability-cards-container{
+  display: grid;
+  width: 100%;
+  column-gap: 24px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows:auto;
+  justify-content: center;
+  align-content:center;
+  margin-top: 40px;
+
+}
+
+.ability-card {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:312px;
+  height: 690px;
+  border-width: 1px;
+  border-color: rgb(33, 33, 29);
+  border-radius: 12px;
+  border-style: solid;
+  padding: 12px;
+  padding-top: 12px;
+  
+}
+
+.ability-card-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius:40px;
+  background-color: #d48223;
+  margin: 12px;
+     
+}
+
+.ability-card-icon-img {
+  width: 70px;
+  height: 65px;
+
+}
+
+.ability-card-subtitle {
+  font-size: 16px;
+  margin-top: 4px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.ability-list {
+  width: 90%;
+}
+
+
+.section-porfolio {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+
+}
+.section-portfolio-grid {
+  display: grid;
+  width: 100%;
+  column-gap: 24px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows:auto;
+  justify-content: center;
+  align-content:center;
+  margin-top: 40px;
+}
+
+.section-porfolio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 384px;
+  height: 300px;
+  border-width: 2px;
+  border-color: rgb(33, 33, 29);
+  border-style: solid;
+  border-radius: 24px;
+  }
+
+  .section-porfolio-img {
+    width: 220px;
+    height: 156px;
+    margin-bottom: 12px;
+    
+  }
+
+  .section-portfolio-card-links {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    align-items: baseline;
+    justify-content: space-between;
+
+  }
+
+  .section-portfolio-card-icon-image {
+    width: 24px;
+    height: 24px;
+  }
+
+  .section-experiences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom:80;
+    width: 100%;
+  }
+
+  
+
+  .section-experiences-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 900px;
+    height: 130px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin: 24px;
+    padding: 24px;
+  }
+
+  .section-experiences-card-img {
+    width: 90px;
+    height: 80px;
+    border-radius: 12px;
+  }
+  .section-experiences-card-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+    margin-left:20px ;  
+
+  }
+
+
+
+  .section-experiences-card-title {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+  }
+
+
+  .section-experiences-card-subtitle {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 18px;    
+    margin: 12px 0px 0px 0px;
+  }
+
+  .section-experiences-card-text {
+    font-family: "Montserrat", sans-serif; 
+    font-size: 16px;    
+    margin: 12px 0px 0px 0px;
+  }
+
+  .section-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom:80;
+    width: 100%;
+    margin: 30px
+
+  }
+
+  .section-help-card-text {
+    font-family: "Montserrat", sans-serif;    
+    font-size: 18px;
+    font-weight: 600;
+    margin: 40px
+  }
+
+
+  .section-help-card-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .section-help-card-img {
+    width:42px;
+    height:34px;
+    border-radius: 12px;
+    
+  }
+
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    width: 1216px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .footer-social-icons-container {
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+
+  }
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
