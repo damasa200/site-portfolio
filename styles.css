@@ -38,8 +38,12 @@ h5 {
 li {
   font-size: 20px;
   margin-bottom: 12px;
-  font-weight: 400;
+  font-weight: 400;  
+}
 
+
+a { 
+  color: #1e1e1e;  
 }
 
   
@@ -166,9 +170,12 @@ footer {
 }
 
 .hero-info-image {
-  height: 557px;
+  height: 100%;
   width: 567px;
   border-radius: 25px;
+  border-style: solid;
+
+
 }
 
 .hero-info-icones-container {
@@ -395,6 +402,7 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 16px;
   }
 
   .section-help-card-img {
