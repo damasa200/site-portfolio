@@ -4,6 +4,7 @@
 <head>
   <title>Danilo Matos</title>
   <link rel="stylesheet" href="styles.css"/>
+  <script src="index.js"></script> 
 </head>
 </head>
 </head>
@@ -15,11 +16,17 @@
     <div class="barra-navegacao">
       <h2 class="titulo-navegacao">Danilo M. Souza</h2>
       <div> 
-        <a class="links-navagacao">Habilidades</a>
-        <a class="links-navagacao">Portfólio</a>
-        <a class="links-navagacao">Experiência</a>
+        <a onclick="onClickScrollTo('section-abilities')" 
+        class="links-navagacao">Habilidades</a>
+
+        <a onclick="onClickScrollTo('section-portfolio')"
+        class="links-navagacao">Portfólio</a>
+
+        <a onclick="onClickScrollTo('section-experiences')"
+        class="links-navagacao">Experiência</a>
+
       </div>  
-      <button>CONTATO</button>
+      <button onclick="onClickScrollTo('section-contact')">CONTATO</button>
     </div>
 
     <div class="hero-info">
@@ -34,7 +41,7 @@
         em desenvolvimentoweb e mobile,atuando 
         em mais de 20 projetos.        
       </p> 
-      <button>ENTRAR EM CONTATO</button>
+      <button onclick="onClickScrollTo('section-contact')">ENTRAR EM CONTATO</button>
     <div class="hero-info-icones-container ">      
       <a>
          <img alt="github" class="hero-info-icones-img" 
@@ -61,7 +68,7 @@
       </div>
     </div>
   </section>
-  <section class="section-abilities">
+  <section class="section-abilities" id="section-abilities">
     <h2> Habilidade</h2>
     <h2 class="cor">que domino.</h2>
     <div class="ability-cards-container">
@@ -133,7 +140,7 @@
     </div>
 
   </section>
-  <section class="section-porfolio">
+  <section class="section-portfolio " id="section-portfolio">
     <h2> Porfólio</h2>
     <h2 class="cor">de projetos.</h2>
     <div class="section-portfolio-grid">
@@ -188,7 +195,7 @@
       </div>
     </div>
   </section>
-  <section class="section-experiences ">
+  <section class="section-experiences" id="section-experiences">
     <h2> Experiências </h2>
     <h2 class="cor">Profissionais.</h2>
   
@@ -228,7 +235,7 @@
     </div>
   </section>
 
-  <section class="section-help">
+  <section class="section-help" id="section-contact">
     <h2> Experiências </h2>
     <h2 class="cor">Profissionais.</h2>
 
